@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700|Merriweather:700&display=swap');
+.fon{
+    background: url(img/4.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    font-size: 37px !important;
+    font-family: 'Bitter', serif;
+}
+.block{
+    background-color: rgba(255, 255, 255, 0.702);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+h1{
+    font-size: 30px !important;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.778);
+}
+.navbar-text p{
+    margin: 3px 3px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+a img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 5px;
+}
+a{
+    text-decoration: none !important;
+}
+.foto{
+    background-size: cover;
+    text-align: center;
+    width: 90%;
+}
+.plus{
+    width: 90px;
+    height: 90px;;
+}
+.About:nth-child(2){
+    border-left: 1px solid black;
+    background: url(img/xp.jpg);
+    background-size: cover;
+}
+.fonAbout{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.fonAbout:hover{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.About:nth-child(3){
+    background: url(img/object.jpg);
+    background-size: cover;
+    border-left: 1px solid black;
+}
+.About:nth-child(4){
+    background: url(img/krov.jpg);
+    background-size: cover;
+    border-left: 1px solid black;
+}
+.AboutName span{
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+}
+.AboutName{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fonAbout div p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.fonAbout:hover div p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    cursor: default;
+}
+.reasons{
+    font-size: 30px;
+}
+.list-group .active{
+    background-color: rgb(251, 255, 71) !important;
+    border: 1px  solid rgb(221, 221, 221)!important;
+    color: black !important;
+}
+.AboutPVX{
+    font-size: 20px;
+}
+.picture{
+    background: url(img/jkx.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.fon1{
+    background: url(img/fon.jpg);
+    background-size: cover;
+}
+.fon1 div .title{
+    font-size: 35px;
+}
+.fon1 div p{
+    color: white;
+    font-size: 20px;
+}
+.selection{
+    box-sizing: border-box;
+    background-color: white;
+    transition: .6s;
+    border-left: 0.5px solid grey;
+    border-bottom: 8px solid transparent;
+}
+.selection:hover{
+    cursor: pointer;
+    border-bottom: 8px solid yellow;
+}
+.selection:nth-child(4){
+    border-right: 0.5px solid gray;
+}
+.selection p{
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 23px;
+}
+.order > a {
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    line-height: 45px;
+    border-radius: 45px;
+    padding: 5px 10px;;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: rgb(160, 220, 255);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  .order > a:hover {
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  #b1{
+    background: rgb(248, 147, 100);
+  }
+  #b1:hover{
+    background: rgb(243, 98, 62);
+    box-shadow: 0 15px 20px rgba(248, 98, 28, 0.4);
+  }
