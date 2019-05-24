@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter:700|Merriweather:700&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
+=======
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 .fon{
     background: url(img/4.jpg);
     background-size: cover;
     height: 90vh;
 }
+<<<<<<< HEAD
 .bag{
     overflow-x: hidden;
 }
+=======
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 body{
     margin: 0;
     padding: 0;
@@ -24,6 +30,7 @@ body{
     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
+<<<<<<< HEAD
 .logo{
     width: 40px;
     height: 60px;
@@ -31,6 +38,10 @@ body{
 h1{
     font-size: 31px !important;
     font-family: 'Merriweather', serif !important;
+=======
+h1{
+    font-size: 30px !important;
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 nav{
     background-color: rgba(255, 255, 255, 0.778);
@@ -58,9 +69,12 @@ a{
     width: 90px;
     height: 90px;;
 }
+<<<<<<< HEAD
 .plus ~ p{
     font-family: 'Exo 2', sans-serif;
 }
+=======
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 .About:nth-child(2){
     border-left: 1px solid black;
     background: url(img/xp.jpg);
@@ -98,7 +112,10 @@ a{
 .fonAbout div p{
     font-size: 25px;
     font-weight: 600;
+<<<<<<< HEAD
     font-family: 'Exo 2', sans-serif;
+=======
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 .fonAbout:hover div p{
     font-size: 25px;
@@ -107,16 +124,21 @@ a{
     cursor: default;
 }
 .reasons{
+<<<<<<< HEAD
     font-size: 35px;
     font-family: 'Merriweather', serif !important;
     font-weight: 500 !important;
     letter-spacing: 1px;
+=======
+    font-size: 30px;
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 .list-group .active{
     background-color: rgb(251, 255, 71) !important;
     border: 1px  solid rgb(221, 221, 221)!important;
     color: black !important;
 }
+<<<<<<< HEAD
 .list-group-item-action{
     font-size: 18px;
     font-weight: 600;
@@ -135,11 +157,21 @@ a{
     background: url(img/komer.jpg);
     background-size: cover;
     height: 70vh;
+=======
+.AboutPVX{
+    font-size: 20px;
+}
+.picture{
+    background: url(img/jkx.jpg);
+    background-size: cover;
+    height: 80vh;
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 .fon1{
     background: url(img/fon.jpg);
     background-size: cover;
 }
+<<<<<<< HEAD
 .position{
     position: absolute;
     right: 5%;
@@ -148,11 +180,16 @@ a{
 .fon1 div .title{
     font-size: 35px;
     font-family: 'Merriweather', serif;
+=======
+.fon1 div .title{
+    font-size: 35px;
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 .fon1 div p{
     color: white;
     font-size: 20px;
 }
+<<<<<<< HEAD
 .type{
     background-color: #f0f0f0;
     border: 15px solid white;
@@ -170,6 +207,8 @@ a{
     font-weight: 600;
     font-size: 20px;
 }
+=======
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 .selection{
     box-sizing: border-box;
     background-color: white;
@@ -179,9 +218,13 @@ a{
 }
 .selection:hover{
     cursor: pointer;
+<<<<<<< HEAD
     border-bottom: 8px solid rgb(251, 255, 71);
     box-shadow: 8px 1px 11px 4px rgba(0,0,0,0.25), -8px 1px 11px 4px rgba(0,0,0,0.22);
     z-index: 1;
+=======
+    border-bottom: 8px solid yellow;
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
 }
 .selection:nth-child(4){
     border-right: 0.5px solid gray;
@@ -191,6 +234,7 @@ a{
     padding: 15px 0px;
     font-size: 23px;
 }
+<<<<<<< HEAD
 .discont{
     font-size: 20px;
     font-family: 'Exo 2', sans-serif;
@@ -318,4 +362,36 @@ a{
       100%{
           background-color: yellow;
       }
+=======
+.order > a {
+    text-decoration: none !important;
+    outline: none;
+    display: inline-block;
+    line-height: 45px;
+    border-radius: 45px;
+    padding: 5px 10px;;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: rgb(160, 220, 255);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  .order > a:hover {
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  #b1{
+    background: rgb(248, 147, 100);
+  }
+  #b1:hover{
+    background: rgb(243, 98, 62);
+    box-shadow: 0 15px 20px rgba(248, 98, 28, 0.4);
+>>>>>>> 4d651f177cf4cf28b4aebb8941b6e7f820ab42d6
   }
