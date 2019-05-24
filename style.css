@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700|Merriweather:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+.fon{
+    background: url(img/4.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.bag{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    font-size: 37px !important;
+    font-family: 'Bitter', serif;
+}
+.block{
+    background-color: rgba(255, 255, 255, 0.702);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+.logo{
+    width: 40px;
+    height: 60px;
+}
+h1{
+    font-size: 31px !important;
+    font-family: 'Merriweather', serif !important;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.778);
+}
+.navbar-text p{
+    margin: 3px 3px;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+a img{
+    height: 40px;
+    width: 40px;
+    margin: 0px 5px;
+}
+a{
+    text-decoration: none !important;
+}
+.foto{
+    background-size: cover;
+    text-align: center;
+    width: 90%;
+}
+.plus{
+    width: 90px;
+    height: 90px;;
+}
+.plus ~ p{
+    font-family: 'Exo 2', sans-serif;
+}
+.About:nth-child(2){
+    border-left: 1px solid black;
+    background: url(img/xp.jpg);
+    background-size: cover;
+}
+.fonAbout{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.fonAbout:hover{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+.About:nth-child(3){
+    background: url(img/object.jpg);
+    background-size: cover;
+    border-left: 1px solid black;
+}
+.About:nth-child(4){
+    background: url(img/krov.jpg);
+    background-size: cover;
+    border-left: 1px solid black;
+}
+.AboutName span{
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+}
+.AboutName{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fonAbout div p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+}
+.fonAbout:hover div p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    cursor: default;
+}
+.reasons{
+    font-size: 35px;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+}
+.list-group .active{
+    background-color: rgb(251, 255, 71) !important;
+    border: 1px  solid rgb(221, 221, 221)!important;
+    color: black !important;
+}
+.list-group-item-action{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+}
+.tab-pane{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+}
+.AboutPVX{
+    font-size: 22px;
+    font-family: 'Exo 2', sans-serif;
+}
+.picture{
+    background: url(img/komer.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+.fon1{
+    background: url(img/fon.jpg);
+    background-size: cover;
+}
+.position{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.fon1 div .title{
+    font-size: 35px;
+    font-family: 'Merriweather', serif;
+}
+.fon1 div p{
+    color: white;
+    font-size: 20px;
+}
+.type{
+    background-color: #f0f0f0;
+    border: 15px solid white;
+    box-shadow: inset -1px 9px 17px 7px rgba(154, 154, 140, 0.5);
+}
+.type > p:nth-child(1){
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.type > p:nth-child(2){
+    font-size: 20px;
+}
+.type > p:nth-child(3) span{
+    font-weight: 600;
+    font-size: 20px;
+}
+.selection{
+    box-sizing: border-box;
+    background-color: white;
+    transition: .6s;
+    border-left: 0.5px solid grey;
+    border-bottom: 8px solid transparent;
+}
+.selection:hover{
+    cursor: pointer;
+    border-bottom: 8px solid rgb(251, 255, 71);
+    box-shadow: 8px 1px 11px 4px rgba(0,0,0,0.25), -8px 1px 11px 4px rgba(0,0,0,0.22);
+    z-index: 1;
+}
+.selection:nth-child(4){
+    border-right: 0.5px solid gray;
+}
+.selection p{
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 23px;
+}
+.discont{
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.order {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border: 1px solid transparent;
+    animation: color1 3.5s linear infinite;
+    text-transform: uppercase;
+  }
+  .order:before,
+  .order:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  .order:before {
+    bottom: 0;
+    left: 0;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+    animation: move1 3.5s linear infinite;
+  }
+  .order:after {
+    top: 0;
+    right: 0;
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    animation: move2 3.5s linear infinite;
+
+  }
+  @keyframes move1{
+      0%{
+          width: 0%;
+          height: 0%;
+          opacity: 1;
+          bottom: 0;
+          left: 0;
+      }
+      25%{
+          height: 100%;
+          width: 0%;
+          bottom: 0;
+          left: 0;
+          opacity: 1;
+      }
+      50%{
+          width: 100%;
+          height: 100%;
+          bottom: 0;
+          left: 0;
+          opacity: 1;
+      }
+      75%{
+          width: 100%;
+          height: 0%;
+          top: 0;
+          left: 0;
+          opacity: 1;
+      }
+      100%{
+          width: 0%;
+          height: 0%;
+          top: 0;
+          left: 100%;
+          opacity: 1;
+      }
+  }
+  @keyframes move2{
+      0%{
+          width: 0%;
+          height: 0%;
+          opacity: 1;
+          top: 0;
+          right: 0;
+      }
+      25%{
+          height: 100%;
+          width: 0%;
+          opacity: 1;
+          top: 0;
+          right: 0;
+      }
+      50%{
+          width: 100%;
+          height: 100%;
+          opacity: 1;
+          top: 0;
+          right: 0;
+      }
+      75%{
+          top: 100%;
+          right: 0;
+          width: 100%;
+          height: 0%;
+          opacity: 1;
+      }
+      100%{
+          width: 0%;
+          height: 0%;
+          opacity: 1;
+          top: 100%;
+          right: 100%;
+      }
+  }
+  @keyframes color1{
+      0%{
+          background-color: yellow;
+      }
+      50%{
+          background-color: rgb(252, 252, 112);
+      }
+      100%{
+          background-color: yellow;
+      }
+  }
