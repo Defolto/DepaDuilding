@@ -4,7 +4,6 @@
 .fon{
     background: url(img/4.jpg);
     background-size: cover;
-    height: 90vh;
 }
 .bag{
     overflow-x: hidden;
@@ -20,8 +19,12 @@ body{
 }
 @media (max-width: 430px){
     .navbar-brand{
-        font-size: 28px !important;
-        font-family: 'Bitter', serif;
+        font-size: 33px !important;
+    }
+    .fon{
+        background: url(img/4.jpg);
+        background-size: cover;
+        height: 100%;
     }
 }
 .block{
@@ -30,16 +33,41 @@ body{
     box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
 }
+.offer{
+    font-size: 29px;
+    font-weight: 600;
+
+}
 .logo{
     width: 40px;
     height: 60px;
 }
+@media (max-width: 990px){
+    .block{
+        background-color: rgba(255, 255, 255, 0.778);   border-radius: 0px;
+        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+        box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    }
+    .fon{
+        background: url(img/41.jpg);
+        background-size: cover;
+        height: 100%;
+    }
+}
 h1{
-    font-size: 31px !important;
+    font-size: 44px !important;
     font-family: 'Merriweather', serif !important;
 }
 nav{
-    background-color: rgba(255, 255, 255, 0.778);
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+@keyframes head{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
 .navbar-text p{
     margin: 3px 3px;
@@ -129,7 +157,7 @@ a{
     font-family: 'Exo 2', sans-serif;
 }
 .tab-pane{
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     font-family: 'Exo 2', sans-serif;
 }
@@ -160,28 +188,53 @@ a{
     font-size: 20px;
 }
 .type{
-    background-color: #f0f0f0;
-    border: 15px solid white;
+    border: 15px solid #f8f9fa;
     box-shadow: inset -1px 9px 17px 7px rgba(154, 154, 140, 0.5);
 }
-.type > p:nth-child(1){
+.type:nth-child(1){
+    background: url(img/soft.jpg);
+    background-size: cover;
+}
+.type:nth-child(2){
+    background: url(img/prof.jpg);
+    background-size: cover;
+}
+.type:nth-child(3){
+    background: url(img/water.jpg);
+    background-size: cover;
+}
+.typeBlock{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.778);
+}
+.typeBlock > p{
     font-size: 27px;
     font-weight: 600;
     margin-top: 15px;
 }
-.type > p:nth-child(2){
-    font-size: 20px;
-}
-.type > p:nth-child(3) span{
-    font-weight: 600;
-    font-size: 20px;
-}
 .selection{
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     transition: .6s;
     border-left: 0.5px solid grey;
     border-bottom: 8px solid transparent;
+}
+@media (max-width: 768px){
+    .selection{
+        border-left: 0.5px solid grey;
+        border-right: 0.5px solid grey;
+    }
+    .selection:nth-child(1){
+        border-bottom: 0.5px solid grey;
+    }
+    .selection:nth-child(2){
+        border-bottom: 0.5px solid grey;
+    }
+    .selection:nth-child(3){
+        border-bottom: 0.5px solid grey;
+    }
 }
 .selection:hover{
     cursor: pointer;
@@ -325,3 +378,40 @@ a{
           background-color: yellow;
       }
   }
+@keyframes right{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes left{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes top{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@media (max-width: 400px){
+    #yslugi{
+        font-size: 28px;
+    }
+}
+#phone{
+    height: 90px;
+    width: 100%;
+}
+#phone a img{
+    height: 60px;
+    width: 60px;
+}
