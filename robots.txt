@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Host: https://depabilding.ru
+Sitemap: https://depabilding.ru/sitemap.xml
